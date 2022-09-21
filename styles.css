@@ -4,11 +4,11 @@
 }
 
 :root {
-    --primary-light-hsl: 200, 100%, 91%;
-    --primary-hsl: 200, 100%, 50%;
-    --primary-dark-hsl: 200,100%, 6%;
-    --success-hsl: 100, 60%, 50%;
-    --error-hsl: 0, 60%, 50%:
+  --primary-light-hsl: 200, 100%, 91%;
+  --primary-hsl: 200, 100%, 50%;
+  --primary-dark-hsl: 200, 100%, 6%;
+  --success-hsl: 100, 60%, 50%;
+  --error-hsl: 0, 60%, 50%;
 }
 
 body {
@@ -27,14 +27,13 @@ body {
 }
 
 .login-container {
-    background-color: hsl(200, 100%, 50%, .5);
-    --color: hsl(var(--primary-dark-hsl), .7);
-    background-color: var(--color);
-    box-shadow: 0 0 150px 0 var(--color);
-    padding: 40px 30px;
-    width: 80%;
-    max-width: 600px;
-    border-radius: 20px;
+  --color: hsl(var(--primary-dark-hsl), .7);
+  background-color: var(--color);
+  box-shadow: 0 0 15px 0 var(--color);
+  padding: 40px 30px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
 }
 
 .login-title {
@@ -59,17 +58,17 @@ body {
 }
 
 .input-group label {
-color: white;
-font-weight: lighter;
+  color: white;
+  font-weight: lighter;
 }
 
-.input-group input{
+.input-group input {
   font-size: 1.25rem;
-  padding: .5rem;
-  background-color: hsl(var(--primary-dark-hsl), .3);
+  padding: .5em;
+  background-color: hsl(var(--primary-light-hsl), .3);
   border: none;
   outline: none;
-  border-radius: .25rem;
+  border-radius: .25em;
   color: white;
   font-weight: lighter;
 }
@@ -92,16 +91,15 @@ font-weight: lighter;
 }
 
 .input-group.success .msg,
-
-.input-group.error .msg{
+.input-group.error .msg {
   display: block;
 }
 
-.input-group.error .msg{
+.input-group.error .msg {
   color: hsl(var(--error-hsl));
 }
 
-.input-group.success .msg{
+.input-group.success .msg {
   color: hsl(var(--success-hsl));
 }
 
